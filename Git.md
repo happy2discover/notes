@@ -1,5 +1,10 @@
 # Git
 
+## show config
+```sh
+git config --list
+```
+
 ## config user.name
 ```sh
 git config --global user.name "happy2discover"
