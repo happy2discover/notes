@@ -32,3 +32,10 @@ git config --global core.excludesfile ~/.gitignore_global
 git remote rm origin
 git remote add origin https://github.com/happy2discover/notes.git
 ```
+
+## how to commit code?
+```sh
+git add
+git commit
+git push
+```
