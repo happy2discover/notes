@@ -27,6 +27,9 @@ git config --global core.excludesfile ~/.gitignore_global
 >  ################################  
 >  .DS_Store`  
 
+## what is ".gitkeep"?
+Preserve the current folder only in a repository, always with the use of ".gitignore".
+
 ## how to resolve "fatal: remote origin already exists."?
 ```sh
 git remote rm origin
@@ -39,3 +42,4 @@ git add
 git commit
 git push
 ```
+
