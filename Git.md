@@ -26,3 +26,9 @@ git config --global core.excludesfile ~/.gitignore_global
 >  ######## OS generated files ########  
 >  ####################################  
 >  .DS_Store`  
+
+## how to resolve "fatal: remote origin already exists."?
+```sh
+git remote rm origin
+git remote add origin https://github.com/happy2discover/notes.git
+```
