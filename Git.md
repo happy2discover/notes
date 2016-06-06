@@ -43,3 +43,7 @@ git commit
 git push
 ```
 
+## how to show the differences of a file("app.js") between local and remote?
+```sh
+git diff app.js
+```
