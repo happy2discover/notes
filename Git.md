@@ -22,9 +22,9 @@ git config --global core.excludesfile ~/.gitignore_global
 ### contents of ".gitignore_global"
 
 >  # .gitignore_global  
->  ####################################  
+>  ################################  
 >  ######## OS generated files ########  
->  ####################################  
+>  ################################  
 >  .DS_Store`  
 
 ## how to resolve "fatal: remote origin already exists."?
