@@ -52,3 +52,8 @@ git diff app.js
 ```sh
 git config --global core.longpaths true
 ```
+
+## show status
+```sh
+git status
+```
