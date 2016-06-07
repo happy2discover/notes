@@ -57,3 +57,10 @@ git config --global core.longpaths true
 ```sh
 git status
 ```
+
+## delete a file
+```sh
+git rm file
+git commit
+git push
+```
