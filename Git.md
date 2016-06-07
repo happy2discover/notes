@@ -47,3 +47,8 @@ git push
 ```sh
 git diff app.js
 ```
+
+## fatal: filename too long
+```sh
+git config --global core.longpaths true
+```
