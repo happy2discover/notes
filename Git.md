@@ -35,6 +35,11 @@ Preserve the current folder only in a repository, always with the use of ".gitig
 git init
 ```
 
+## add remote origin
+```sh
+git remote add origin https://github.com/happy2discover/notes.git
+```
+
 ## how to resolve "fatal: remote origin already exists."?
 ```sh
 git remote rm origin
