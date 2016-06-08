@@ -30,6 +30,11 @@ git config --global core.excludesfile ~/.gitignore_global
 ## what is ".gitkeep"?
 Preserve the current folder only in a repository, always with the use of ".gitignore".
 
+## initialize empty Git repository
+```sh
+git init
+```
+
 ## how to resolve "fatal: remote origin already exists."?
 ```sh
 git remote rm origin
