@@ -76,3 +76,4 @@ git push
 ```
 
 ## Chinese characters are unrecognizable in "Git Bash"
+![](https://raw.githubusercontent.com/happy2discover/notes/master/image/GitBash-FixUnrecognizableChineseCharacters.png)
