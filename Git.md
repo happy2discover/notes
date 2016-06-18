@@ -74,3 +74,5 @@ git rm file
 git commit
 git push
 ```
+
+## Chinese characters are unrecognizable in "Git Bash"
