@@ -67,3 +67,13 @@ search: for(var i = 0; i < items; i++) {
   }
 }
 ```
+#### 9. 内置对象
+```
+var obj = Object.create({
+  name: "Jack",
+  sex: "male"
+});
+
+console.log(obj.constructor);   // 对象的构造函数
+console.log(obj.valueOf());     // 对象的值
+```
