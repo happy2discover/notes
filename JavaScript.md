@@ -53,3 +53,17 @@ var c = "3";  // b === c
 var a = 1024;
 a >>> 2
 ```
+#### 7. for-in
+```
+for(var item in items) {
+  console.log(item);
+}
+```
+#### 8. break label;
+```
+search: for(var i = 0; i < items; i++) {
+  for(var j = 0; j < books; j++) {
+    break search;
+  }
+}
+```
