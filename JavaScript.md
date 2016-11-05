@@ -68,7 +68,7 @@ search: for(var i = 0; i < items; i++) {
 }
 ```
 #### 9. 内置对象
-9.1 Object
+##### 9.1 Object
 ```
 var obj = Object.create({
   name: "Jack",
@@ -78,7 +78,7 @@ var obj = Object.create({
 console.log(obj.constructor);   // 对象的构造函数
 console.log(obj.valueOf());     // 对象的值
 ```
-9.2 String
+##### 9.2 String
 ```
 var s = String("Github");
 s.toUperCase();
