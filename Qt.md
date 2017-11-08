@@ -15,7 +15,7 @@ tar -xvf qt-everywhere-opensource-src-5.6.3.tar
 cd qt-everywhere-opensource-src-5.6.3
 ./configure
 ```
-Go to see qt
+See results in terminal carefully
 #### 4. Make
 ```
 make
