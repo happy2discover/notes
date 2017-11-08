@@ -15,3 +15,11 @@ tar -xvf qt-everywhere-opensource-src-5.6.3.tar
 cd qt-everywhere-opensource-src-5.6.3
 ./configure
 ```
+#### 4. Make
+```
+make
+```
+Following commands might be executed
+```
+sudo apt install python
+```
