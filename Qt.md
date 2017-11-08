@@ -15,6 +15,7 @@ tar -xvf qt-everywhere-opensource-src-5.6.3.tar
 cd qt-everywhere-opensource-src-5.6.3
 ./configure
 ```
+Go to see qt
 #### 4. Make
 ```
 make
@@ -22,4 +23,21 @@ make
 Following commands might be executed
 ```
 sudo apt install python
+```
+#### 5. Install
+```
+sudo make install
+```
+#### 6. Environment
+```
+gedit ~/.profile
+```
+Add the following texts at the bottom and then log out
+```
+PATH=/usr/local/Qt-5.6.3/bin:$PATH
+export PATH
+```
+Log in and run the following command to check
+```
+qmake -v
 ```
