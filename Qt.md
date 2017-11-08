@@ -20,7 +20,7 @@ See results in terminal carefully
 ```
 make
 ```
-Following commands might be executed
+Following commands might needs to be executed
 ```
 sudo apt install python
 ```
