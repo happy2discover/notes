@@ -10,6 +10,9 @@ tar -xvf gtk+-3.20.10.tar.xz
 cd gtk+-3.20.10
 ./autogen.sh
 make && make install
+sudo apt install check
+sudo apt install valgrind
+sudo apt install libunwind-dev
 git clone git://anongit.freedesktop.org/wayland/libinput
 cd libinput
 mkdir builddir
