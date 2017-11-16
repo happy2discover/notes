@@ -17,4 +17,7 @@ git clone git://anongit.freedesktop.org/wayland/libinput
 cd libinput
 mkdir builddir
 meson --prefix=$WLD builddir/
+ninja -C builddir/
+sudo ninja -C builddir/ install
+sudo udevadm hwdb --update
 ```
