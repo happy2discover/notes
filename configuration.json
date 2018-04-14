@@ -1,45 +1,46 @@
 {
-    "wifi": [
-        {
-            "ssid": "cardefender",
-            "key": "123456"
-        },
-        {
-            "ssid": "mantence",
-            "key": "789456"
-        }
-    ],
-    "dhcppool": [
-        "192.168.1.1",
-        "192.168.1.254"
-    ],
-    "packetfilter": {
-        "ip": [
-            "224.222.222.222",
-            "224.221.221.221"
-        ],
-        "port": [
-            "5000",
-            "6000"
-        ],
-        "protocol": [
-            "TCP/IP",
-            "UDP"
-        ]
+  "wifi": [
+    {
+      "ssid": "cardefender",
+      "key": "123456"
     },
-    "staticroute": [
-        {
-            "interface": "lan",
-            "target": "192.168.1.12",
-            "netmask": "255.255.255.255",
-            "gateway": "192.168.1.1",
-            "metric": "0",
-            "mtu": "1500",
-            "type": "local"
-        }
-    ],
-    "wificlient": {
-        "ssid": "cardefender",
-        "password": "123456"
+    {
+      "ssid": "mantence",
+      "key": "789456"
     }
+  ],
+  "dhcppool": {
+    "start": "192.168.1.100",
+    "limit": "192.168.1.150",
+    "leasetime": "12h"
+  },
+  "packetfilter": {
+    "ip": [
+      "224.222.222.222",
+      "224.221.221.221"
+    ],
+    "port": [
+      "5000",
+      "6000"
+    ],
+    "protocol": [
+      "TCP/IP",
+      "UDP"
+    ]
+  },
+  "staticroute": [
+    {
+      "interface": "lan",
+      "target": "192.168.1.12",
+      "netmask": "255.255.255.255",
+      "gateway": "192.168.1.1",
+      "metric": "0",
+      "mtu": "1500",
+      "type": "local"
+    }
+  ],
+  "wificlient": {
+    "ssid": "cardefender",
+    "key": "123456"
+  }
 }
