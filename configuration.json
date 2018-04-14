@@ -37,6 +37,24 @@
       "metric": "0",
       "mtu": "1500",
       "type": "local"
+    },
+    {
+      "interface": "lan",
+      "target": "192.168.1.123",
+      "netmask": "255.255.255.255",
+      "gateway": "192.168.1.1",
+      "metric": "0",
+      "mtu": "1000",
+      "type": "local"
+    },
+    {
+      "interface": "lan",
+      "target": "192.168.1.124",
+      "netmask": "255.255.255.255",
+      "gateway": "192.168.1.1",
+      "metric": "0",
+      "mtu": "1200",
+      "type": "local"
     }
   ],
   "wificlient": {
